@@ -239,20 +239,33 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) {
+  nav {
+    margin-right: 7.5%;
+  }
+  #logo {
+    margin-left: 7.5%;
+  }
   .main-section {
+    width: 50%;
+    margin-left: 7.5%;
+  }
+  .main-section img {
     width: 100%;
+  }
+  .sidebar {
+    margin-right: 7.5%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-/*   nav {
-    width: 100%;
-  } */
+  nav {
+    margin-right: 10%;
+  }
 
-  nav a {
+/*   nav a {
     float: right;
     padding: 20px;
-  }
+  } */
 
   #masthead {
     width: 100%;
@@ -289,7 +302,8 @@ input[type=submit] {
 @media only screen and (max-width: 640px) {
   nav {
     width: 100%;
-    margin-bottom: 5%;
+    margin: 2% auto 2% auto;
+    float: left;
   }
 
   nav a {
@@ -304,14 +318,15 @@ input[type=submit] {
     min-width: 100%;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   #logo {
     width: 100%;
     min-width: 100%;
+    margin-left: 0;
   }
   .container {
     width: 100%;
-    clear: both;
   }
   .main-section {
     margin: 10% 5%;
